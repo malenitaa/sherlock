@@ -1,0 +1,98 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoEcommerce</title>
+    <link rel="stylesheet" href="stylesIndex.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: #3498db;">Home</a></li>
+            <li><a href="checkout.html" style="color: #3498db;">Checkout</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <div class="carousel-banner-slider">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+            <img src="ecobanner.jpg" alt="Customer 1">
+            </div>
+            <div class="carousel-item">
+            <img src="recycle.jpg" alt="Customer 2">
+            </div>
+            <div class="carousel-item">
+            <img src="huerta.jpeg" alt="Customer 3">
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-prev">Prev</button>
+            <button class="carousel-next">Next</button>
+        </div>
+        </div>
+
+        <section id="featured-products">
+            <h2 style="color: #2ecc71;">Featured Products</h2>
+            <ul>
+                <li>
+                    <img src="product1.jpg" alt="Product 1" style="border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+                    <h3 style="color: #3498db;">Panda Flask</h3>
+                    <p style="color: #2ecc71;">$19.99</p>
+                </li>
+                <li>
+                    <img src="product2.jpeg" alt="Product 2" style="border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+                    <h3 style="color: #3498db;">Bamboo <br>Toothbrush</h3>
+                    <p style="color: #2ecc71;">$29.99</p>
+                </li>
+                <li>
+                    <img src="product1.jpg" alt="Product 1" style="border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+                    <h3 style="color: #3498db;">Panda Flask</h3>
+                    <p style="color: #2ecc71;">$19.99</p>
+                </li>
+                <li>
+                    <img src="product2.jpeg" alt="Product 2" style="border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+                    <h3 style="color: #3498db;">Bamboo <br>Toothbrush</h3>
+                    <p style="color: #2ecc71;">$29.99</p>
+                </li>
+                <!-- Add more products here -->
+            </ul>
+        </section>
+        <section id="search-bar">
+            <input type="search" id="search-input" placeholder="Search for products..." style="padding: 0.5em; border: 1px solid #ccc; border-radius: 5px;">
+            <button id="search-button" style="background-color: #3498db; color: #fff; border: none; padding: 0.5em 1em; border-radius: 5px; cursor: pointer;">Search</button>
+        </section>
+        <section id="product-list">
+            <h2 style="color: #2ecc71;">Product List</h2>
+            <ul id="product-list-container"></ul>
+        </section>
+        <section id="customer-reviews">
+            <h2 style="color: #2ecc71;">Customer Reviews</h2>
+            <ul>
+                <li>
+                    <img src="customer1.png" alt="Customer 1" style="width: 50px; height: 50px; border-radius: 50%; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+                    <h3 style="color: #3498db;">Jane Doe</h3>
+                    <p style="color: #2ecc71;">5/5 stars</p>
+                    <p style="color: #2ecc71;">Great product!</p>
+                </li>
+                <li>
+                    <img src="customer2.png" alt="Customer 2" style="width: 50px; height: 50px; border-radius: 50%; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+                    <h3 style="color: #3498db;">John Doe</h3>
+                    <p style="color: #2ecc71;">4/5 stars</p>
+                    <p style="color: #2ecc71;">Good product, but could be better.</p>
+                </li>
+                <!-- Add more reviews here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 EcoEcommerce</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

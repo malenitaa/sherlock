@@ -1,0 +1,95 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+#checkout-form {
+  background-color: #fff;
+  padding: 2em;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+#order-summary {
+  background-color: #fff;
+  padding: 2em;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+#order-summary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#order-summary li {
+  margin: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
